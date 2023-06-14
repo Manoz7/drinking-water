@@ -1,0 +1,170 @@
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+nav.main {
+  background: #245ebb;
+}
+
+#main-navigation {
+  z-index: 1021 !important;
+}
+
+.stellarnav {
+  width: 100%;
+  z-index: 9900;
+}
+
+.stellarnav,
+.stellarnav li {
+  position: relative;
+  line-height: normal;
+}
+
+.stellarnav .full {
+  width: 100%;
+}
+
+.stellarnav .call-btn-mobile,
+.stellarnav .close-menu,
+.stellarnav .location-btn-mobile,
+.stellarnav .menu-toggle {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.stellarnav .call-btn-mobile,
+.stellarnav .close-menu,
+.stellarnav .location-btn-mobile,
+.stellarnav .menu-toggle {
+  display: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.stellarnav a {
+  color: #777;
+}
+
+nav.main .stellarnav ul {
+  text-align: left;
+}
+
+.stellarnav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.stellarnav>ul>li {
+  display: inline-block;
+}
+
+.stellarnav li {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.stellarnav,
+.stellarnav li {
+  position: relative;
+  line-height: normal;
+}
+
+nav.main .stellarnav ul li a {
+  background-color: #245ebb;
+  color: #f8f9fa;
+  padding: 14px 18px;
+}
+
+.stellarnav>ul>li>a {
+  padding: 20px 40px;
+}
+
+.stellarnav li a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: inherit;
+  font-family: inherit;
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.stellarnav a {
+  color: #777;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none !important;
+}
+
+.common_page {
+    min-height: 700px;
+    padding-bottom: 40px;
+}
+
+.common_page .page_title {
+    padding-top: 15px;
+}
+
+.common_page .page_body {
+    padding: 15px 20px;
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
+.gradient-bg {
+  background: #56CCF2;
+  background: linear-gradient(to right, #56CCF2, #245ebb);
+}
+
+.home-blocks .card {
+  border: none;
+  border-radius: 0;
+  padding: 30px 15px;
+}
+
+.pro-tabs .nav-tabs .nav-item .nav-link.active {
+  border-bottom: 5px solid #245ebb;
+  color: #245ebb;
+  font-weight: bolder;
+  background: none;
+}
+
+.pro-tabs .nav-tabs .nav-item .nav-link {
+  border: none;
+}
+
+.static_links .wrapper div.links {
+  width: 100%;
+  background: #fff;
+  border-radius: 15px 15px 0 15px;
+  padding: 10px 10px;
+  color: #245ebb;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #245ebb;
+  margin-bottom: 2px;
+}
+
+.bg-first-dark {
+  background-color: #114499;
+}
