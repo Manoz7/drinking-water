@@ -13,97 +13,6 @@ nav.main {
   z-index: 1021 !important;
 }
 
-.stellarnav {
-  width: 100%;
-  z-index: 9900;
-}
-
-.stellarnav,
-.stellarnav li {
-  position: relative;
-  line-height: normal;
-}
-
-.stellarnav .full {
-  width: 100%;
-}
-
-.stellarnav .call-btn-mobile,
-.stellarnav .close-menu,
-.stellarnav .location-btn-mobile,
-.stellarnav .menu-toggle {
-  padding: 15px;
-  box-sizing: border-box;
-}
-
-.stellarnav .call-btn-mobile,
-.stellarnav .close-menu,
-.stellarnav .location-btn-mobile,
-.stellarnav .menu-toggle {
-  display: none;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.stellarnav a {
-  color: #777;
-}
-
-nav.main .stellarnav ul {
-  text-align: left;
-}
-
-.stellarnav ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.stellarnav>ul>li {
-  display: inline-block;
-}
-
-.stellarnav li {
-  list-style: none;
-  display: block;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-}
-
-.stellarnav,
-.stellarnav li {
-  position: relative;
-  line-height: normal;
-}
-
-nav.main .stellarnav ul li a {
-  background-color: #245ebb;
-  color: #f8f9fa;
-  padding: 14px 18px;
-}
-
-.stellarnav>ul>li>a {
-  padding: 20px 40px;
-}
-
-.stellarnav li a {
-  padding: 15px;
-  display: block;
-  text-decoration: none;
-  color: #777;
-  font-size: inherit;
-  font-family: inherit;
-  box-sizing: border-box;
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all .3s ease-out;
-  transition: all .3s ease-out;
-}
-
-.stellarnav a {
-  color: #777;
-}
-
 a {
   color: #343a40;
   text-decoration: none !important;
@@ -168,3 +77,4 @@ a {
 .bg-first-dark {
   background-color: #114499;
 }
+
