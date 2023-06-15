@@ -4,6 +4,11 @@ a {
 }
 
 /* Navbar */
+.nav-item{
+  padding-inline: 10px;
+  font-size: 1.3rem;
+}
+
 nav.main ul li a {
   background-color: #245ebb;
   color: #f8f9fa;
@@ -98,4 +103,10 @@ a {
 
 .bg-first-dark {
   background-color: #114499;
+}
+
+/* Breadcrumb */
+
+.breadcrumb{
+  align-items: center;
 }
